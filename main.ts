@@ -7,7 +7,7 @@ import { dirname } from "node:path";
 const OUT = "/output/entry.txt";
 
 const LINE =
-  "1 star for gravity: always on, cannot be paused, has dropped everything I own at least once. No settings menu. Furious.";
+  "1 star for gravity: works every single time, no off switch, has dropped my coffee, my phone, and one day me. Would not install again.";
 
 mkdirSync(dirname(OUT), { recursive: true });
 writeFileSync(OUT, LINE, "utf8");
